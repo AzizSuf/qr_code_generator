@@ -14,6 +14,7 @@ def root():
    </form>'''
 
 
+@app.route("/qrrrr")
 @app.route("/qr")
 def qr():
    msg = request.args.get('msg')
